@@ -69,6 +69,11 @@ body {
   color: var(--sub-heading-color);
 }
 
+.img-container li:hover{
+  background-color: var(--sub-heading-color);
+  color: var(--secondary-color);
+}
+
 .info{
   margin-top: 50px;
 }
