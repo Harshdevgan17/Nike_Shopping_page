@@ -1,0 +1,118 @@
+:root{
+    --primary-color:#e0c9cb;
+    --text-color:#4e4e4e;
+    --price-tag-color:#c3a1a0;
+    --components-color:#cda9ac;
+    --sub-heading-color:#ce9091;
+    --secondary-color:#f5f5f5;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: var(--primary-color);
+}
+
+.container{
+  background-color: var(--secondary-color);
+  width: 590px;
+  margin: 180px auto;
+  display: flex;
+  border-radius: 15px;
+  overflow: hidden;
+  box-sizing: border-box;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.img-container img{
+  width: 300px;
+  margin: 63px 20px 0px 0px;
+}
+
+.size{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.sub-heading{
+  color: var(--sub-heading-color);
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+}
+
+.img-container ul{
+  cursor: pointer;
+  width: 300px;
+  list-style: none;
+  margin-top: 5px;
+  margin-bottom: 40px;
+  display: flex;
+  margin-right: 20px;
+}
+
+.img-container li{
+  display: flex;
+  width: 35px;
+  font-size: 12px;
+  height: 35px;
+  border: 1px solid var(--sub-heading-color);
+  justify-content: center;
+  align-items: center;
+  margin-right: 4px;
+  color: var(--sub-heading-color);
+}
+
+.info{
+  margin-top: 50px;
+}
+
+.shoe-name{
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 7px;
+}
+
+.price{
+  color: var(--sub-heading-color);
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 9px;
+}
+
+.description p{
+  width: 91%;
+  margin-top: 20px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.button-container{
+  display: flex;
+  margin-top: 20px;
+}
+
+.button-container button{
+  height: 40px;
+  background-color: var(--components-color);
+  border: none;
+  border-radius: 2px;
+  margin-right: 2px;
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.add button{
+  width: 150px;
+  word-spacing: 2px;
+}
+
+.like button{
+  width: 50px;
+}
